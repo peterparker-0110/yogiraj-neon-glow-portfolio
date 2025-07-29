@@ -52,16 +52,26 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				// Portfolio specific colors
+				'portfolio-black': 'hsl(var(--portfolio-black))',
+				'portfolio-green': 'hsl(var(--portfolio-green))',
+				'portfolio-white': 'hsl(var(--portfolio-white))',
+				'portfolio-gray': 'hsl(var(--portfolio-gray))',
+				'portfolio-gray-light': 'hsl(var(--portfolio-gray-light))',
+			},
+			fontFamily: {
+				heading: ['Playfair Display', 'serif'],
+				body: ['Inter', 'sans-serif'],
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-section': 'var(--gradient-section)',
+				'gradient-green-glow': 'var(--gradient-green-glow)',
+			},
+			boxShadow: {
+				'green-glow': 'var(--shadow-green-glow)',
+				'card-portfolio': 'var(--shadow-card)',
+				'button-neon': 'var(--shadow-button)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
